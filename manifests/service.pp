@@ -1,6 +1,6 @@
 class boinc::service {
-  service { "boinc-client":
-      ensure => running,
-      require => Package["boinc-client"],
+  service { 'boinc-client':
+      ensure  => running,
+      require => Package['boinc-client'],
   }
 }
